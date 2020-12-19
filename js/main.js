@@ -56,7 +56,7 @@
     skills += "<\/ul>";
     
     var about="";
-    about += "<p>I can say I'm a very passionate guy ,<br>I love to learn new technology in any domain and share my knowledge with colleagues.<br>I have the habit of improvising , to take the best out of everything , most predominantly in technology. I really think I still have more to learn and I think I will never abide at what I already know.<\/p>";
+    about += "<p>I love to learn new technology in any domain and share my knowledge with colleagues.<br>I have the habit of improvising , to take the best out of everything , most predominantly in technology. I really think I still have more to learn and I think I will never abide at what I already know.<\/p>";
     var experience="";
     experience += "<p><strong>Samsung Semiconductor India R&D <\/strong><br>";
     experience += "                <i>Senior SoC Design Verification Engineer<\/i><br>";
@@ -79,7 +79,7 @@
     var help= "<p>Availble comands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
     help += "";
     
-    var contact= "<p>mob: <a href=\"mob:91-8335805583\">91-8335805583<\/a><\/p><p>eMail: <a href=\"mailto:soham.mondal@samsung.com\">soham.mondal@samsung.com<\/a><\/p> ";
+    var contact= "<p>mob: <a href=\"mob:91-8335805583\">91-8335805583<\/a><\/p><p>eMail: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
     
     var availble= " : command not found.<br> Please enter an availble command <br> Run `help` for commands.<\/p>";
 
