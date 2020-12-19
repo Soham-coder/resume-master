@@ -56,34 +56,32 @@
     skills += "<\/ul>";
     
     var about="";
-    about += "<p>I love to learn new technology in any domain and share my knowledge with colleagues.<br>I have the habit of improvising , to take the best out of everything , most predominantly in technology. I really think I still have more to learn and I think I will never abide at what I already know.<\/p>";
+    about += "<p>I love to learn new technology in any domain and share my knowledge with colleagues.<br>I have the habit of improvising , to take the best out of everything , most predominantly in technology. Fast learner. I really think I still have more to learn.<\/p>";
     var experience="";
     experience += "<p><strong>Samsung Semiconductor India R&D <\/strong><br>";
     experience += "                <i>Senior SoC Design Verification Engineer<\/i><br>";
     experience += "                July 2019 – Present<\/p>";
     experience += "";
     experience += "";
-    experience += "<p><strong>Group Five Software<\/strong><br>";
-    experience += "                <i>Junior PHP Developer<\/i><br>";
-    experience += "                Febr 2016 – Aug 2017<\/p>";
-    experience += "                <p>Group Five Software is a small company that develops big projects.<\/p>";
-    experience += "                <p>Here I managed too work on a project from it's beginnings and I learned a lot from it .<\/p>";
+    experience += "<p><strong>Samsung Semiconductor India R&D<\/strong><br>";
+    experience += "                <i>Dram h/w design Intern<\/i><br>";
+    experience += "                May 2018 – Jul 2018<\/p>";
 
 
-    var education="<p><strong>FSEGA<\/strong - Facultatea de Stiinte Economice si Gestiunea Afacerilor, <strong>Universitatea Babes Bolyai<\/strong>, Cluj- Napoca.<\/p>";
+    var education="<p><strong>Jadavpur Univerity<\/strong - Department of Electronics & Telecommunications Engineering, Kolkata, India<\/p>";
 
-    education += "<p>Information Technologies and Economics , Bachelor (3)<\/p>";
-    education += "<p>October 2016 - Present<\/p>";
+    education += "<p>Bachelor of Engineering<\/p>";
+    education += "<p>2015 - 2019<\/p>";
     education += "";
     
-    var help= "<p>Availble comands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
+    var help= "<p>Available comands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
     help += "";
     
     var contact= "<p>mob: <a href=\"mob:91-8335805583\">91-8335805583<\/a><\/p><p>eMail: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
     
-    var availble= " : command not found.<br> Please enter an availble command <br> Run `help` for commands.<\/p>";
+    var availble= " : Command Not Found!<br> Please enter an available command <br> Run `help` to see available commands.<\/p>";
 
-    var no_history= "<p>you don't have any previous command runned</p>";
+    var no_history= "<p>You don't have any previous commands in history</p>";
     $scope.array = [];
     var history_commands = [];
     
