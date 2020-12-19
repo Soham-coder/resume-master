@@ -74,12 +74,12 @@
     education += "<p>2015 - 2019<\/p>";
     education += "";
     
-    var help= "<p>Available comands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
+    var help= "<p>Available commands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
     help += "";
     
     var contact= "<p>mob: <a href=\"mob:91-8335805583\">91-8335805583<\/a><\/p><p>eMail: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
     
-    var availble= " : Command Not Found!<br> Please enter an available command <br> Run `help` to see available commands.<\/p>";
+    var availble= " : Command Not Found!<br> Please enter an available command <br> Run `help` to see set of available commands.<\/p>";
 
     var no_history= "<p>You don't have any previous commands in history</p>";
     $scope.array = [];
@@ -128,7 +128,7 @@
             
         }else if($scope.read.toLowerCase() == 'download'){
             $scope.array.push(['',$scope.read]);
-            window.open('CurriculumVitae.pdf', '_blank', 'fullscreen=yes');
+            window.open('Resume.pdf', '_blank', 'fullscreen=yes');
             $scope.read = '';
             
         }else {
