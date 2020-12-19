@@ -1,6 +1,6 @@
-# resume
+# Resume
 
-### Love Terminals? Check out the previous design of my website inspired by Terminals 
+### Love Terminals? Check out the previous design of my simple portfolio website inspired by Terminals 
 
 Terminal-resume , using only Angularjs, Html and Css.
 
