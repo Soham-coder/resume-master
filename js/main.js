@@ -68,13 +68,13 @@
     experience += "                May 2018 – Jul 2018<\/p>";
 
 
-    var education="<p><strong>Jadavpur Univerity - Department of Electronics & Telecommunications Engineering, Kolkata, India <\/strong><\/p>";
+    var education="<p><strong>Jadavpur Univerity , Department of Electronics & Telecommunications Engineering, Kolkata, India <\/strong><\/p>";
 
     education += "<p>Bachelor of Engineering<\/p>";
     education += "<p>2015 - 2019<\/p>";
     education += "";
     
-    var help= "<p>Available commands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
+    var help= "<p>Available commands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download resume<\/li><\/ul>";
     help += "";
     
     var contact= "<p>mob: <a href=\"Mobile:+91-8335805583\">91-8335805583<\/a><\/p><p>Email: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
@@ -126,7 +126,7 @@
             history_commands.push($scope.read);
             $scope.read = '';
             
-        }else if($scope.read.toLowerCase() == 'download'){
+        }else if($scope.read.toLowerCase() == 'download resume'){
             $scope.array.push(['',$scope.read]);
             window.open('Resume.pdf', '_blank', 'fullscreen=yes');
             $scope.read = '';
