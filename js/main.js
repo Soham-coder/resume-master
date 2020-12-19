@@ -68,7 +68,7 @@
     experience += "                May 2018 – Jul 2018<\/p>";
 
 
-    var education="<p><strong>Jadavpur Univerity<\/strong - Department of Electronics & Telecommunications Engineering, Kolkata, India<\/p>";
+    var education="<p><strong>Jadavpur Univerity - Department of Electronics & Telecommunications Engineering, Kolkata, India <\/strong><\/p>";
 
     education += "<p>Bachelor of Engineering<\/p>";
     education += "<p>2015 - 2019<\/p>";
@@ -77,9 +77,9 @@
     var help= "<p>Available commands:<\/p> <ul><li>help<\/li><li>clear<\/li><li>about<\/li><li>experience<\/li><li>education<\/li><li>skills<\/li><li>contact<\/li><li>download<\/li><\/ul>";
     help += "";
     
-    var contact= "<p>mob: <a href=\"mob:91-8335805583\">91-8335805583<\/a><\/p><p>eMail: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
+    var contact= "<p>mob: <a href=\"Mobile:+91-8335805583\">91-8335805583<\/a><\/p><p>Email: <a href=\"mailto:sohammondal39@gmail.com\">sohammondal39@gmail.com<\/a><\/p> ";
     
-    var availble= " : Command Not Found!<br> Please enter an available command <br> Run `help` to see set of available commands.<\/p>";
+    var availble= " : Command Not Found!<br>__Please enter an available command!__<br> Run `help` to see set of available commands.<\/p>";
 
     var no_history= "<p>You don't have any previous commands in history</p>";
     $scope.array = [];
