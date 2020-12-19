@@ -1,0 +1,41 @@
+html,
+body {
+	height: 100%;
+	background-color: #000000;
+}
+input{
+	background-color: #000000;
+	color: #66D9EF;
+}
+.command{
+	color: #66D9EF;
+}
+input{
+	border: 0;
+	width: 70%;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 15px;
+	outline: none;
+}
+span{
+	color: #00D714;
+}
+p{
+	margin:5px;
+}
+.output{
+	color: #ffffff;
+}
+.nume{
+	position: absolute;
+	right:15px;
+	top: 0;
+	color: white;
+}
+.port{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	color: green;
+}	
