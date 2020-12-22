@@ -1,3 +1,5 @@
+![visitors](https://visitor-badge.glitch.me/badge?page_id=Soham-coder-resume-master)
+
 # Resume
 
 ### Love Terminals? Check out the previous design of my simple portfolio website inspired by Terminals! 
